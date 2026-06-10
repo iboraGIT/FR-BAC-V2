@@ -307,52 +307,12 @@ header {
     color: var(--red);
 }
 
-/* ── Feedback area ───────────────────────────── */
-.feedback-area {
+/* ── Feedback message ────────────────────────── */
+.feedback-msg {
     min-height: 1.2rem;
-    margin-bottom: 1rem;
-    border-left: 3px solid transparent;
-    padding: 0;
-    overflow: hidden;
-    transition: border-color 0.3s;
-}
-
-.feedback-area.feedback-correct {
-    border-left-color: var(--green);
-    background: var(--green-bg);
-    padding: 0.9rem 1.1rem;
-    animation: fadeUp 0.2s ease forwards;
-}
-
-.feedback-area.feedback-wrong {
-    border-left-color: var(--red);
-    background: var(--red-bg);
-    padding: 0.9rem 1.1rem;
-    animation: fadeUp 0.2s ease forwards;
-}
-
-.feedback-result {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.84rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-}
-
-.feedback-area.feedback-correct .feedback-result { color: #5DD4A8; }
-.feedback-area.feedback-wrong   .feedback-result { color: #E07878; }
-
-.fb-icon {
-    font-size: 1rem;
-    flex-shrink: 0;
-}
-
-.feedback-explanation {
-    font-size: 0.82rem;
-    line-height: 1.65;
-    color: var(--text);
-    opacity: 0.85;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-bottom: 0.8rem;
     font-style: italic;
 }
 
